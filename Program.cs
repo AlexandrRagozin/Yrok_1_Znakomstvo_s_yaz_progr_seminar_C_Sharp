@@ -17,17 +17,32 @@
 // a = -3 b = 9 -> нет;
 
 //cameCase => firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumberAndfourthNumber, 
-Console.Write("Введите первое число: "); // Текст-подсказка, которая помогает получить число
-int firstNumber = Convert.ToInt32(Console.ReadLine());
+// КОД 2 Console.Write("Введите первое число: "); // Текст-подсказка, которая помогает получить число
+// int firstNumber = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите второе число: "); // Текст-подсказка, которая помогает получить число
-int secondNumber = Convert.ToInt32(Console.ReadLine());
-// Точка с запятой не ставится перед "{"
-if (secondNumber * secondNumber == firstNumber) // Ветка "Да"
-{
-    Console.WriteLine("Превое число является квадратом второго ");
-}
-else Console.WriteLine("Превое число НЕ является квадратом второго ");
+// Console.Write("Введите второе число: "); // Текст-подсказка, которая помогает получить число
+// int secondNumber = Convert.ToInt32(Console.ReadLine());
+// // Точка с запятой не ставится перед "{"
+// if (secondNumber * secondNumber == firstNumber) // Ветка "Да"
+// {
+//     Console.WriteLine("Превое число является квадратом второго ");
+// }
+// else Console.WriteLine("Превое число НЕ является квадратом второго ");
+
+
+
+//  Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+// 	3 -> Среда 
+// 5 -> Пятница
+
+// КОД 3 int dayNumber = Convert.ToInt32(Console.ReadLine());
+// if (dayNumber == 1) Console.WriteLine("Понедельник ");
+
+//  Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+// 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
+// 2 -> " -2, -1, 0, 1, 2"
+
+
 
 
 
